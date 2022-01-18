@@ -1,0 +1,91 @@
+// All Extarnal Links
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+// All Variable
+$green-gradient: linear-gradient(90deg, #309975, #58B368);
+$green-gradient-half: linear-gradient(90deg, rgba(48, 153, 116, 0.9), rgba(88, 179, 105, 0.9));
+$yellow-linear: linear-gradient(90deg, #DAD873, #FFCA63);
+$red-linear: linear-gradient(90deg, #FFCDC2, #F88888);
+$color-white: #FFFFFF;
+$color-gray: #575757;
+$color-yellow: #DAD873;
+$color-dark-sky: #20656f;
+$color-dark-yellow: #FFCA63;
+$color-green: #309975;
+$color-white-sky: #78E3EC;
+$color-white-sky-2: #A0F6FA;
+$color-red-yellow: #F8BF88;
+$color-contrast-sky: #D0FBFD;
+$color-yellow-half: rgb(239, 238, 180);
+$color-sky-half: #F0FEFF;
+$color-sky-blue: #25BBCC;
+$color-navy-blue: #2F5E88;
+$color-normal-sky: #50D1DD;
+$color-white-gray: #E5E5E5;
+$color-white-red: #FFCDC2;
+
+
+$font-popin: 'Poppins', sans-serif;
+
+
+
+
+// All Components
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+section{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+    &.padd{
+        padding: 50px 0;
+    }
+}
+
+.container{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.section-header{
+    margin: 0 auto;
+    text-align: center;
+
+    .title{
+        display: block;
+        text-align: center;
+        font-size: 38px;
+        font-family: $font-popin;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .desc{
+        font-size: 16px;
+        color: $color-gray;
+        font-family: $font-popin;
+        font-weight: 400;
+    }
+}

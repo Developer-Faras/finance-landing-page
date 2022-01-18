@@ -1,0 +1,507 @@
+// Allawese Right Learge Laptop And Upper
+
+
+// Start Laptop
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .container{
+        width: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+
+    #hero{
+        .container{
+            background-position: 90px 100%;
+
+            .content{
+
+                .title{
+                    font-size: 52px;
+                    line-height: 60px;
+                }
+            }
+        }
+    }
+
+
+    #mission{
+        .container{
+            padding: 20px 0;
+
+            .card{
+                width: 410px!important;
+            }
+        }
+    }
+
+
+    #services{
+        .content{
+            .small{
+                width: 36%;
+            }
+        }
+    }
+}
+
+
+// Tablet
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container{
+        width: 740px!important;
+    }
+
+    #main-header{
+        .content{
+
+            .logo{
+                width: 120px;
+                height: 30px;
+            }
+
+            ul{
+                a{
+                    font-size: 14px!important;
+                }
+            }
+        }
+    }
+
+
+    #hero{
+        .container{
+            background-size: 120%;
+            background-position: -60px 100%;
+            .content{
+                .title{
+                    font-size: 60px!important;
+                }
+            }
+
+        }
+    }
+
+
+    #mission{
+        .container{
+            padding: 10px 0;
+
+            .cards{
+                padding: 40px 10px;
+
+                .card{
+                    width: 340px!important;
+                    padding: 30px;
+
+                    .title{
+                        font-size: 22px;
+                        padding: 20px 0;
+                    }
+
+                    .data-list{
+                        li{
+                            font-size: 14px;
+                        }
+                    }
+
+                    .learn-more-btn{
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    #exchange{
+        .content{
+            padding: 20px;
+
+            :is(.left, .right){
+                width: 40%;
+            }
+        }
+    }
+
+
+    #services{
+        .content{
+            position: relative;
+
+            .small{
+                width: 47%;
+
+                .card{
+                    background: $color-white;
+                }
+            }
+            .midium{
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+
+    #footer{
+        .top{
+            .logo{
+                width: 190px;
+                height: 50px;
+                margin-bottom: 12px;
+            }
+            .title{
+                font-size: 20px;
+            }
+            #subs-email{
+                width: 270px;
+            }
+            #subs-submit{
+                width: 70px;
+            }
+
+            .desc{
+                font-size: 12px!important;
+            }
+
+            .list{
+                li{
+                    a{
+                        font-size: 14px!important;
+                    }
+                }
+            }
+
+            .forter-text{
+                font-size: 14px;
+            }
+
+            .sosial{
+                ul{
+                    li{
+                        a{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Mobile L
+@media (max-width: 767px) {
+
+    .section-header{
+        .title{
+            font-size: 24px;
+        }
+        .desc{
+            font-size: 14px;
+        }
+    }
+
+    .container{
+        padding: 0 20px;
+    }
+
+    #main-header{
+        .content{
+            padding: 0 30px;
+
+            .nav-toggler{
+                display: block;
+                font-size: 22px;
+                color: #fff;
+                cursor: pointer;
+                position: relative;
+                z-index: 1000;
+            }
+        }
+
+        ul.menu{
+            position: fixed;
+            top: 0;
+            left: -200%;
+            background: rgba(38, 39, 50, 0.7);
+            display: block;
+            width: 50%;
+            height: 100%;
+            z-index: 999;
+            padding: 70px 0;
+            transition: all 0.3s ease;
+
+            &.active{
+                left: 0;
+            }
+
+            li{
+                padding: 6px 0;
+
+                a{
+                    font-size: 16px;
+                    display: block;
+                }
+            }
+        }
+
+        .mobile-menu-overlay{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.4);
+            z-index: 200;
+            display: none;
+            transition: all 0.3s ease;
+
+            &.active{
+                display: block;
+            }
+        }
+
+        ul.btns{
+            a{
+                font-size: 13px!important;
+
+                &.sign-btn{
+                    font-size: 12px!important;
+                    width: 80px!important;
+                    height: 32px!important;
+                }
+            }
+        }
+    }
+    
+
+    #hero{
+        width: 100%;
+        height: 94vh;
+
+        .container{
+            background: none;
+            padding: 0 30px;
+            justify-content: center;
+
+            .content{
+                .title{
+                    font-size: 34px;
+                    text-align: center;
+                    line-height: 50px;
+                }
+
+                .cards{
+                    margin-bottom: 44px;
+
+                    .card{
+                        width: 30%;
+
+                        .card-title{
+                            font-size: 26px;
+                        }
+
+                        .desc{
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                .download_btn{
+                    width: 170px;
+                    height: 52px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    #mission{
+        padding-bottom: 0px;
+        .cards{
+            display: block!important;
+            text-align: center;
+
+            .card{
+                width: 100% !important;
+                padding: 30px 20px!important;
+                margin-bottom: 30px;
+
+                .title{
+                    font-size: 22px!important;
+                    padding: 12px 0!important;
+                }
+
+                .data-list li{
+                    font-size: 13px!important;
+                    list-style: none!important;
+                }
+
+                :is(.name, .learn-more-btn){
+                    margin: 0 auto!important;
+                }
+            }
+        }
+
+        .inner-card{
+            width: 100% !important;
+            height: 140px !important;
+            padding: 10px 30px!important;
+
+            .bottom{
+                margin-top: 0px!important;
+            }
+        }
+    }
+
+    #exchange{
+        padding-bottom: 0px;
+
+        .section-header{
+            text-align: center;
+            .title{
+                text-align: center;
+            }
+        }
+
+        .content{
+            flex-direction: column;
+
+            .left{
+                width: 300px;
+                margin-bottom: 20px;
+            }
+
+            .right{
+                width: 300px;
+
+                .sell-box{
+                    .input-box{
+                        width: 100%;
+                    }
+                }
+                .exchange-btn{
+                    margin: 0px auto;
+                    margin-top: 30px;
+                }
+                
+            }
+        }
+    }
+
+    #services{
+        padding-bottom: 0px;
+        .content{
+            position: relative;
+
+            .small{
+                width: 100%;
+
+                .card{
+                    background: $color-white;
+                    position: relative;
+                }
+            }
+            .midium{
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                height: 100%;
+                width: 100%;
+                z-index: -1;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    #footer{
+        padding-bottom: 20px;
+
+        .top{
+            display: block!important;
+
+            .left{
+                width: 100%!important;
+                margin-bottom: 30px;
+            }
+
+            .right{
+                width: 100%!important;
+                justify-content: center!important;
+
+                .list{
+                    &:first-child{
+                        padding-right: 50px;
+                    }
+                    &:last-child{
+                        padding-left: 50px;
+                    }
+                }
+            }
+        }
+
+        
+    }
+}
+
+// Mobile Midium
+@media (max-width:530px) {
+    #services{
+        .content{
+            display: block;
+
+            .midium{
+                display: none;
+            }
+        }
+    }
+
+    #footer{
+        .right{
+            width: 100%!important;
+            margin: 0 auto;
+        }
+
+        .bottom{
+            flex-direction: column-reverse;
+
+            .sosial{
+                margin-left: 0!important;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+
+// Mobile Small
+@media (max-width: 500px) {
+    #footer{
+        .left{
+            .subscribe-form-wraper{
+                input{
+                    width: 100%!important;
+                }
+            }
+        }
+    }
+}
